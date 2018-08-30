@@ -26,6 +26,7 @@ allprojects {
             url  "https://dl.bintray.com/shabankamel/android"
         }
         maven { url 'https://jitpack.io' }
+        maven { url "https://dl.bintray.com/shabankamel/android" }
     }
 }
 
