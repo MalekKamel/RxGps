@@ -1,0 +1,7 @@
+
+U"squid:SwitchLastCaseIsDefaultCheck:""Add a default case to this switch.(Ñƒ¨áúÿÿÿÿ
+squid:UselessImportCheck"ORemove this unused import 'com.tbruyelle.rxpermissions2.RxPermissionsFragment'.(ËãªÒıÿÿÿÿ8úÆ™İØ,
+Esquid:S1068"(Remove this unused "frag" private field.(ÀÜÈ8‘‹’İØ,
+Bsquid:S14812"+Remove this unused "states" local variable.(âÂĞ‘
+gsquid:S1301:"KReplace this "switch" statement by "if" statements to increase readability.(Ñƒ¨áúÿÿÿÿ
+\squid:UnusedPrivateMethod"0Remove this unused private "getFragment" method.(Š‰Şş8»Å›İØ,
