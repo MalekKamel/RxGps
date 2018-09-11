@@ -25,7 +25,7 @@ new RxLocationSettingsRequest()
 [ ![Download](https://api.bintray.com/packages/shabankamel/android/rxlocationsettingsrequest/images/download.svg) ](https://bintray.com/shabankamel/android/rxlocationsettingsrequest/_latestVersion)
 ```groovy
 dependencies {
-    implementation 'com.sha.kamel:rx-location-settings-request:1.0.0@aar'
+    implementation 'com.sha.kamel:rx-location-settings-request:1.0.2@aar'
 }
 
 allprojects {
