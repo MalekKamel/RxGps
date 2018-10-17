@@ -1,5 +1,5 @@
 
-# RxLocationSettingsRequest
+# RxGps
 ###  RxJava wrapper for Android LocationSettingsRequest used to enable GPS.
 
 <img src="https://github.com/ShabanKamell/RxLocationSettingsRequest/blob/master/blob/master/raw/sample.png" height="600">
@@ -11,8 +11,8 @@
 
 ```java
 LocationRequest locationRequest = new ...
-new RxLocationSettingsRequest()  
-        .request(locationRequest, MainActivity.this) // FragmentActivity
+new RxGps()  
+        .enable(locationRequest, MainActivity.this) // FragmentActivity
         .subscribe(isLocationRequested -> {  
             if (isLocationRequested){  
                 // Location is now enabled and you can implement your logic of  
