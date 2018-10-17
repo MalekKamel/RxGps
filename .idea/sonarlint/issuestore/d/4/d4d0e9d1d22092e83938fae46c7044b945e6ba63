@@ -1,5 +1,6 @@
 
-Fsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¦§†æØ,
-Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¦§†æØ,
-\"squid:SwitchLastCaseIsDefaultCheck4""Add a default case to this switch.(Ñƒ¨áúÿÿÿÿ8¦§†æØ,
-nsquid:S13014"KReplace this "switch" statement by "if" statements to increase readability.(Ñƒ¨áúÿÿÿÿ8¦§†æØ,
+\"squid:SwitchLastCaseIsDefaultCheckX""Add a default case to this switch.(Ñƒ¨áúÿÿÿÿ8¦§†æØ,
+nsquid:S1301X"KReplace this "switch" statement by "if" statements to increase readability.(Ñƒ¨áúÿÿÿÿ8¦§†æØ,
+Fsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8«äàÁÜ,
+psquid:S1450"SRemove the "frag" field and declare it as a local variable in the relevant methods.(ÀÜÈ8Êô­ÂÜ,
+Fsquid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹ŠûŠã,

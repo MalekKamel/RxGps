@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.google.android.gms.location.LocationRequest;
-import com.sha.kamel.rxlocationsettingsrequest.RxLocationSettingsRequest;
+import com.sha.kamel.rxlocationsettingsrequest.RxGps;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         locationRequest.setInterval(0);
         locationRequest.setFastestInterval(2 * 1000);
 
-        disposable = new RxLocationSettingsRequest()
-                .request(locationRequest, MainActivity.this)
+        disposable = new RxGps()
+                .enable(locationRequest, MainActivity.this)
                 .subscribe(isLocationRequested -> {
                     if (isLocationRequested){
                         // Location is now enabled and you can implement your logic of

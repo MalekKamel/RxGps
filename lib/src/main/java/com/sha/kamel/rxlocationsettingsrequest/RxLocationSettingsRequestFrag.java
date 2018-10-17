@@ -25,7 +25,7 @@ public class RxLocationSettingsRequestFrag extends Fragment {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode){
-            case RxLocationSettingsRequest.REQUEST_CHECK_SETTINGS:
+            case RxGps.REQUEST_CHECK_SETTINGS:
                 callback.accept(resultCode == Activity.RESULT_OK);
                 break;
         }
@@ -38,6 +38,7 @@ public class RxLocationSettingsRequestFrag extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        readyCallback.accept(this);
+        if (readyCallback != null)
+            readyCallback.accept(this);
     }
 }

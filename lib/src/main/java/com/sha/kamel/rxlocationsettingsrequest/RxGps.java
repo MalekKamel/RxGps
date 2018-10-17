@@ -15,7 +15,7 @@ import com.google.android.gms.location.LocationSettingsStatusCodes;
 import io.reactivex.Single;
 import io.reactivex.subjects.PublishSubject;
 
-public class RxLocationSettingsRequest {
+public class RxGps {
 
     static final int REQUEST_CHECK_SETTINGS = 0;
     private RxLocationSettingsRequestFrag frag;
@@ -37,7 +37,7 @@ public class RxLocationSettingsRequest {
 
     /**
      * Since we add the fragment using commitAllowingStateLoss, we need to start resolution
-     * request only when the fragment is ready to request. So we call
+     * enable only when the fragment is ready to enable. So we call
      * this method when the fragment onCreate is called.
      */
     private void startResolutionForResult(RxLocationSettingsRequestFrag frag) {
@@ -67,11 +67,11 @@ public class RxLocationSettingsRequest {
 
     /**
      * Request to enable GPS
-     * @param locationRequest location request
+     * @param locationRequest location enable
      * @param fragmentActivity fragment activity
      * @return single
      */
-    public Single<Boolean> request(
+    public Single<Boolean> enable(
             LocationRequest locationRequest,
             FragmentActivity fragmentActivity) {
 

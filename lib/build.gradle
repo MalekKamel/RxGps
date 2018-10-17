@@ -7,15 +7,15 @@ ext {
     bintrayName = 'rxlocationsettingsrequest'
 
     publishedGroupId = 'com.sha.kamel'
-    libraryName = 'RxLocationSettingsRequest'
-    artifact = 'rx-location-settings-request'
+    libraryName = 'RxGps'
+    artifact = 'rx-location-settings-enable'
 
     libraryDescription = 'RxJava wrapper for Android LocationSettingsRequest used to enable GPS.'
 
-    siteUrl = 'https://github.com/ShabanKamell/RxLocationSettingsRequest'
-    gitUrl = 'https://github.com/ShabanKamell/RxLocationSettingsRequest.git'
+    siteUrl = 'https://github.com/ShabanKamell/RxGps'
+    gitUrl = 'https://github.com/ShabanKamell/RxGps.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'shaban'
     developerName = 'shaban kamel'
@@ -30,7 +30,7 @@ android {
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
-        minSdkVersion versions.minvSdk
+        minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 1
         versionName "1.0"

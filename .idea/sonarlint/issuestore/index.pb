@@ -15,3 +15,7 @@ Xlib/src/main/java/com/sha/kamel/rxlocationsettingsrequest/RxLocationSettingsReq
 Qapp/src/main/java/com/sha/kamel/rxlocationsettingsrequestsample/MainActivity.java,6/a/6aafb56086fcb825631ea3ea8f1c2abb4fe53e7c
 ?
 versions.gradle,a/8/a8e804beb3174b2650db161f81257656db32888b
+x
+Hlib/src/main/java/com/sha/kamel/rxlocationsettingsrequest/Procedure.java,b/f/bf979d17f426ad65821de5f1d39753679906756f
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
